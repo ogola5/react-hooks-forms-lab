@@ -6,12 +6,16 @@ function ItemForm(props) {
     <form className="NewItem">
       <label>
         Name:
-        <input type="text" name="name" />
+        <input 
+          type="text"
+          name="name" 
+          id="name"
+         />
       </label>
 
       <label>
         Category:
-        <select name="category">
+        <select name="category" id="category">
           <option value="Produce">Produce</option>
           <option value="Dairy">Dairy</option>
           <option value="Dessert">Dessert</option>
